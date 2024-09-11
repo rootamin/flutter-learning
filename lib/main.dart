@@ -24,15 +24,13 @@ class MyApp extends StatelessWidget {
               color: Colors.deepPurple,
               borderRadius: BorderRadius.circular(20),
             ),
-            padding: EdgeInsets.all(25),
-            // padding: EdgeInsets.only(horizontal: 25, vertical: 50),
-            child: Text(
-                "rootamin",
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 28,
-                  fontWeight: FontWeight.bold,
-                ),),
+            padding: EdgeInsets.all(28),
+            child: Icon(
+              Icons.favorite,
+              color: Colors.white,
+              size: 64,
+            ),
+            
           ),
         ),
       ),
